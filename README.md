@@ -6,3 +6,4 @@
 
 # External links for Every machine
 - (https://www.vulnhub.com/entry/moneybox-1,653/)
+- (https://www.vulnhub.com/entry/evilbox-one,736/)
