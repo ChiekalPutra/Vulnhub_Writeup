@@ -1,0 +1,18 @@
+Nmap scan report for earth.local (192.168.56.106)
+Host is up (2.5s latency).
+Not shown: 877 filtered tcp ports (no-response), 120 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 8.6 (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.51 ((Fedora) OpenSSL/1.1.1l mod_wsgi/4.7.1 Python/3.9)
+|_http-title: Earth Secure Messaging
+|_http-server-header: Apache/2.4.51 (Fedora) OpenSSL/1.1.1l mod_wsgi/4.7.1 Python/3.9
+443/tcp open  ssl/http Apache httpd 2.4.51 ((Fedora) OpenSSL/1.1.1l mod_wsgi/4.7.1 Python/3.9)
+|_http-title: Earth Secure Messaging
+| ssl-cert: Subject: commonName=earth.local/stateOrProvinceName=Space
+| Subject Alternative Name: DNS:earth.local, DNS:terratest.earth.local
+| Not valid before: 2021-10-12T23:26:31
+|_Not valid after:  2031-10-10T23:26:31
+|_http-server-header: Apache/2.4.51 (Fedora) OpenSSL/1.1.1l mod_wsgi/4.7.1 Python/3.9
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
